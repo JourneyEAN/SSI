@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="#page-top"><img src="assets/img/logodrs.png" width="60px"></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Product</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#client">Client</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="masthead">
+  <div class="container px-4 px-lg-5 h-100">
+      <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center banner-content">
+          <div class="col-lg-8 align-self-end">
+            <h2 class="text-2">TENTANG KAMI</h2>
+              <hr class="divider" />
+          </div>
+      </div>
+      <div class="text-center text-3 ">
+        <a class="btn btn-outline-info btn-xl" href="#about">Tentang Kami</a>
+        <a class="btn btn-outline-danger btn-xl" href="#about">Kenali Kami</a>
+        <a class="btn btn-outline-primary btn-xl" href="#about">management</a>
+      </div>
+  </div>
+</header>
+
+<section class="page-section" id="services">
+  <div class="container px-4 px-lg-5=">
+      <h2 class="text-center mt-0">DIMA RAMA SAKTI</h2>
+      <p class="text-center mb-5 text-3">We Provide All Good <span>Stuffs You
+        Need</span></p>
+  </div>
+  <div class="container px-4 px-lg-5 page-section bg-info">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-lg-8 text-center">
+            <h2 class="text-white mt-0">We Are Profesional</h2>
+            <hr class="divider divider-light" />
+            <p class="text-white-75 mb-4"data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom" data-aos-offset="100" data-aos-duration="500">CV. Dima Rama Sakti
+                    (DRS Engineering & Supplies) adalah jawaban dari kebutuhan perusahaan anda, dengan keunggulan
+                    kualitas dan kecepatan layanan dan terpercaya yang di dukung dengan tenaga yang telah
+                    berpengalaman di bidangnya.<span id="dots">...</span><span id="more"> Ruang lingkup perusahaan kami meliputi pengadaan kebutuhan industri,
+                        Jasa dan pengadaan bidang elektrikal dan mekanikal, seperti jasa engineering dalam desain
+                        modifikasi peralatan mekanikal, otomasi, dan pembuatan jig/fixture.</span></p>
+            <a class="btn btn-light btn-xl" onclick="myFunction()" id="myBtn">Read More</a>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="" id="about">
+
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- SimpleLightbox plugin JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+  
+<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script>
+  function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+      }
+    }
+    </script>
+</body>
+</html>
